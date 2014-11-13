@@ -1,0 +1,10 @@
+completely changed project to blockhero. 
+
+Created character, hero, and minion classes. Created physics for hero movement (including fast speed-up initially and then slower speedup,
+friction to slow down after letting go of keys, and stop hero by pressing button).
+working now on minion movement, which turns out is much harder than I thought it was going to be, scrapped several times. Currently
+trying to get each minion to follow within a certain distance behind the previous minion (ends up looking like a line formation).
+
+Can demo hero physics by running blockhero2.py and moving with up/down/left/right. Spacebar stops the hero. When you press an arrow
+and then let go, after a while it will stop. Also, say you press up for a little bit, and then hold down the right key. It will go
+up at first, then slowly go more right, then be completely going towards the right.
